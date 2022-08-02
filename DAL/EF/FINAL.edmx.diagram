@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="56c47faa700b497098b738942a48238f" Name="Diagram1">
+        <EntityTypeShape EntityType="MIDModel.a_profile" Width="1.5" PointX="3" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MIDModel.adv_details" Width="1.5" PointX="5.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MIDModel.b_profile" Width="1.5" PointX="3" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MIDModel.blog" Width="1.5" PointX="7.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MIDModel.c_rating" Width="1.5" PointX="8" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MIDModel.complain" Width="1.5" PointX="9.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MIDModel.s_appartment_details" Width="1.5" PointX="5.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MIDModel.s_profile" Width="1.5" PointX="3" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MIDModel.t_profile" Width="1.5" PointX="3" PointY="15" IsExpanded="true" />
+        <EntityTypeShape EntityType="MIDModel.trans_details_sb" Width="1.5" PointX="8" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="MIDModel.user_details" Width="1.5" PointX="0.75" PointY="7.875" IsExpanded="true" />
+        <AssociationConnector Association="MIDModel.FK_a_profile_user_details" ManuallyRouted="false" />
+        <AssociationConnector Association="MIDModel.FK_b_profile_user_details" ManuallyRouted="false" />
+        <AssociationConnector Association="MIDModel.FK_c_rating_s_appartment_details" ManuallyRouted="false" />
+        <AssociationConnector Association="MIDModel.FK_trans_details_sb_s_appartment_details" ManuallyRouted="false" />
+        <AssociationConnector Association="MIDModel.FK_s_profile_user_details" ManuallyRouted="false" />
+        <AssociationConnector Association="MIDModel.FK_t_profile_user_details" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
